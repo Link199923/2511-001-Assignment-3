@@ -16,21 +16,26 @@ header{
     justify-content:baseline;
     width: 15%;
 }
+
 nav a {
-    display: flex;
-    margin-bottom: 0.5rem;
     text-decoration: none;
     color: #333;
     font-weight: bold;
     justify-content: center;
     gap:5%;
-    
+    text-align: center;
 }
+
+h3 {
+    margin-top: 10px;
+}
+
 nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 50%;
+    height: 110%;
+    text-align: center;
 }
 #container{
     display:grid;
@@ -48,12 +53,15 @@ img{
     height: auto;
 }
 aside {
+    display: flex;
+    flex-direction: column;
     grid-column: 1 ; /* place the sidebar in the first column */
     grid-row:2/4;   /* place sidebar from row 2 to 4 */
     background-color: #eee;
-    padding: 1rem;
-    
-    
+    padding: 6rem;
+}
+#home{
+    grid-column: 1/2;
 }
 
 footer{
@@ -62,4 +70,5 @@ footer{
 }
 form{
     grid-row:3;
-}
+display:flex;
+justify-content: center;}
