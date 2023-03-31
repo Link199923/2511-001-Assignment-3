@@ -35,14 +35,14 @@ nav a {
     font-weight: bold;
     justify-content: center;
     gap:5%;
-    
+
 }
 nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 50%;
-}
+  }
 img{
     width:50%;
 }
@@ -54,13 +54,13 @@ img{
     border-style: dashed;
 }
 #firstImageTop{
-    margin-right: auto;
-    margin-left: auto;
+margin-right: auto;
+margin-left: auto;
 }
 #secondImageTop{
     margin-right: auto;
     margin-left: auto;
-}
+    }
 section {
     border-style: dashed;
     display: grid;
