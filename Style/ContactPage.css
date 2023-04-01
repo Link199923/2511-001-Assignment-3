@@ -6,15 +6,17 @@ body{
     margin: 0%;
 }
 
-header{
-    border-style: dashed;
+header{display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
     grid-column: 1/3;
     text-align: center;
+    background-color: #eee;
 }
 #logo{
     display: flex;  
     justify-content:baseline;
-    width: 15%;
+    width: 80%;
+    height:70%;
 }
 
 nav a {
@@ -29,6 +31,19 @@ nav a {
 h3 {
     margin-top: 10px;
 }
+#title{
+    grid-column: 2/4;
+    padding-left: 19%;
+    margin-right: 30%; 
+    margin-top: 0%;   
+    grid:flex;
+    text-align:center;
+    padding-right: 10%;
+    font-size:500%;
+    font-family: 'EB Garamond', serif;
+
+}
+
 
 nav {
     display: flex;
@@ -40,15 +55,14 @@ nav {
 #container{
     display:grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 270px 2fr 3fr 1fr;
-    border-style:double;
+    grid-template-rows: 190px 2fr 3fr 1fr;
     gap:1%;
 }
 
 img{
     grid-column: 2/3;
     grid-row:2/3;
-    width: 100%; 
+    width: 90%; 
     max-height: 400px;
     height: auto;
 }
@@ -60,15 +74,21 @@ aside {
     background-color: #eee;
     padding: 6rem;
 }
-#home{
-    grid-column: 1/2;
+fieldset{
+    background-color: #eee;
+
 }
 
 footer{
-    border-style: dashed;
     grid-column:1/3;
+    background-color: #eee;
 }
 form{
     grid-row:3;
-display:flex;
-justify-content: center;}
+    display:flex;
+    justify-content: center;
+    background-color: navy;
+    width: 70%;
+    margin-left: 15%;
+}
+
