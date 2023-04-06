@@ -20,6 +20,9 @@ header{
 }
 #browsemenu{
     font-size: 200%;
+    text-align: center;
+    background-color: #eee;
+    width: 80%;
 }
 
 #title{
@@ -71,7 +74,10 @@ img{
     width:50%;
 }
 
-
+.colonav a{
+    background-color: #dfdfdf;
+    border-style: solid blue;
+}
 #imagestop{
     
     grid-row:2/3;
@@ -100,6 +106,7 @@ section {
     grid-gap:2%;
     background-color: navy;
 }
+
 h4{
     background-color: rgb(172, 170, 170);
     width: 40%;
@@ -156,6 +163,9 @@ footer{
 }
 a[href^="https"] {
     color: rgb(72, 11, 11);
+}
+#title2{
+    font-size: 300%;
 }
 
 
@@ -277,28 +287,37 @@ a[href^="https"] {
         position: fixed;
         font-size: calc(9px + 1vw);
         top: 5%;
-        left:100%;
+        left:120%;
         width: 33%;
-        height: 30%;
+        height: 35%;
         list-style: none;
-        background-color: rgb(163, 234, 163);
+        background-color: navy;
         border-color: black;
+        border-style: ridge;
         z-index: 1;
         color: black;
+        transform: skewX(5deg);
+
         
     }
     aside{
         display:none;
     }
     #logo img{
-        width: 130%;
-        height:115%;
+        width: 85%;
+        height:110%;
     }
     #title{
-        margin-left:20%;
+        margin-left:10%;
+    }
+    #title2{
+        size: 200%;
+        border-style: dashed;
+        width: 150%;
     }
     html{
         background-color: #eee;
+        
     }
 }
 /* medium size screen */
@@ -306,6 +325,9 @@ a[href^="https"] {
     header img{
         width: 100%;
 
+    }
+    #title{
+        margin-left: 10%;
     }
 
 }
